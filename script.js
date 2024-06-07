@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Dentro de um labirinto misterioso, o viajante pode:",
+        enunciado: "1. Dentro de um labirinto misterioso, o viajante pode:",
         alternativas: [
             {
-                texto: "Seguir a trilha de luz.",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "A) Seguir a trilha de luz.",
+                afirmacao: "1. Você encontrou o Jardim Secreto. "
             },
             {
-                texto: "Ouvir a voz sussurrante.",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "B) Ouvir a voz sussurrante.",
+                afirmacao: "1. Levou você a um sono profundo."
             }
         ]
     },
     {
-        enunciado: "Diante de uma encruzilhada no deserto, o nômade pode:",
+        enunciado: "2. Diante de uma encruzilhada no deserto, o nômade pode:",
         alternativas: [
             {
-                texto: "Seguir a estrela brilhante.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "A) Seguir a estrela brilhante.",
+                afirmacao: "2. Encontrou uma lâmpada magica."
             },
             {
-                texto: "Ouvir o vento.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "B) Ouvir o vento.",
+                afirmacao: "2. Encontrou uma Ilha dos Sonhos."
             }
         ]
     },
     {
-        enunciado: "No cruzamento de duas estradas, o peregrino pode:",
+        enunciado: "3. No cruzamento de duas estradas, o peregrino pode:",
         alternativas: [
             {
-                texto: "Seguir a estrada larga.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "A) Seguir a estrada larga.",
+                afirmacao: "3. No final do caminho estreito, havia um monstro. Você morreu."
             },
             {
-                texto: "Seguir o caminho estreito.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "B) Seguir o caminho estreito.",
+                afirmacao: "3. No final do caminho estreito, você encontrou um lugar de paz."
             }
         ]
     },
     {
-        enunciado: "Em uma floresta encantada, o aventureiro pode:",
+        enunciado: "4. Em uma floresta encantada, o aventureiro pode:",
         alternativas: [
             {
-                texto: "Seguir a trilha de flores.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "A) Seguir a trilha de flores.",
+                afirmacao: "4. Uma trilha com vários aromas diferentes."
             },
             {
-                texto: "Seguir o riacho murmuroso.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "B) Seguir o riacho murmuroso.",
+                afirmacao: "4. Ouviu lamentações daqueles que foram condenados"
             }
         ]
     },
     {
-        enunciado: "Na entrada de uma caverna mística, o explorador pode:",
+        enunciado: "5. Na entrada de uma caverna mística, o explorador pode:",
         alternativas: [
             {
-                texto: "Seguir a luz dourada.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "A) Seguir a luz dourada.",
+                afirmacao: "5. Te levou para um castelo de ouro."
             },
             {
-                texto: "Seguir a sombra profunda",
-                afirmacao: "?"
+                texto: "B) Seguir a sombra profunda",
+                afirmacao: "5. Te levou para uma masmorra obscura."
             }
         ]
     },
